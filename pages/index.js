@@ -17,7 +17,7 @@ const Index = () => {
         </div >
         <div className='my-12'>
           <Link href='/pesquisa'>
-            <a className='bg-blue-500 font bold px-12 py-6 font-bold rounded-lg shadow-lg hover:shadow'>
+            <a className='bg-blue-500 font bold px-12 py-6 font-bold rounded-lg shadow-lg hover:bg-blue-600 hover:text-white focus:outline-none'>
               Dar Opinião ou sugestão
             </a>
           </Link>
