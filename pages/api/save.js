@@ -43,9 +43,12 @@ export default async (req, res) => {
       Cupom,
       Promo
     })
-    res.end(req.body)
-  }
-  catch (err) {
+    res.end(JSON.stringify({
+      showCoupon: cupom !== '',
+      Cupom,
+      Promo
+    }))
+  } catch (err) {
     console.log(err)
     res.end('error')
   }
